@@ -1,0 +1,11 @@
+        .main5 {
+            margin-right: 110px;
+        }
+
+        .btn7 {
+            border: none;
+        }
+
+        .dropdown:hover .dropdown-menu {
+            display: block;
+        }

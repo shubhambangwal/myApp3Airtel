@@ -1,0 +1,107 @@
+        .dropdown:hover .dropdown-menu {
+            display: block;
+
+        }
+
+        .main {
+            border-bottom: 1px solid #000;
+        }
+
+        .search {
+            border: none;
+            border-bottom: 1px solid #000;
+            outline: none;
+            font-size: 35px;
+        }
+
+        .search1 {
+            border: none;
+            border-bottom: 1px solid #000;
+            outline: none;
+            font-size: 28px;
+        }
+
+        .main4 {
+            width: 100px;
+            background-color: none;
+            border: 1px solid #000;
+            border-radius: 10px;
+            text-align: center;
+            margin-right: 10px;
+        }
+
+        .main4_2 {
+            width: 80px;
+            background-color: none;
+            border: 1px solid #000;
+            border-radius: 10px;
+            text-align: center;
+            margin-left: -20px;
+        }
+
+        .main4_3 {
+            width: 120px;
+            background-color: none;
+            border: 1px solid #000;
+            border-radius: 10px;
+            text-align: center;
+            margin-left: -40px;
+        }
+
+        .main5 {
+            margin-right: 115px;
+        }
+
+        .main20 ul {
+            list-style-type: none;
+            display: inline-flex;
+            gap: 15px;
+            margin-left: -25px;
+            margin-top: 110px;
+            filter: grayscale();
+            cursor: pointer;
+        }
+
+        .main20 ul:hover {
+            list-style-type: none;
+            display: inline-flex;
+            gap: 15px;
+            margin-left: -25px;
+            margin-top: 110px;
+            filter: brightness();
+            cursor: pointer;
+        }
+
+        .main20_1 ul {
+            list-style-type: none;
+            display: inline-flex;
+            gap: 15px;
+            margin-top: 30px;
+            margin-left: 80px;
+            margin-bottom: 50px;
+            filter: grayscale();
+            cursor: pointer;
+        }
+
+        .main20_1 ul:hover {
+            list-style-type: none;
+            display: inline-flex;
+            gap: 15px;
+            margin-top: 30px;
+            margin-left: 80px;
+            margin-bottom: 50px;
+            filter: brightness();
+            cursor: pointer;
+        }
+
+        .btn7 {
+            border: none;
+        }
+
+        @media (max-width: 575.98px) {
+            .imag13 {
+                width: 362px;
+                height: 200px;
+                margin-left: -5px;
+            }
+        }

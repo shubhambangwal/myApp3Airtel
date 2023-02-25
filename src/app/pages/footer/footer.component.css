@@ -1,0 +1,41 @@
+.main20 ul {
+    list-style-type: none;
+    display: inline-flex;
+    gap: 15px;
+    margin-left: -25px;
+    margin-top: 110px;
+    filter: grayscale();
+    cursor: pointer;
+}
+
+.main20 ul:hover {
+    list-style-type: none;
+    display: inline-flex;
+    gap: 15px;
+    margin-left: -25px;
+    margin-top: 110px;
+    filter: brightness();
+    cursor: pointer;
+}
+
+.main20_1 ul {
+    list-style-type: none;
+    display: inline-flex;
+    gap: 15px;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    filter: grayscale();
+    cursor: pointer;
+}
+
+.main20_1 ul:hover {
+    list-style-type: none;
+    display: inline-flex;
+    gap: 15px;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    filter: brightness();
+    cursor: pointer;
+}
