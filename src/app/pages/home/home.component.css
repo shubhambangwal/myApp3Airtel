@@ -94,18 +94,61 @@
             margin-left: 20px;
         }
 
-        .btn2 {
-            width: 280px;
-            height: 60px;
-            border-radius: 50px;
-            background-color: #8d0000;
-            border: none;
-            color: #fff;
-            font-size: 20px;
-            margin-top: 40px;
-            word-spacing: 5px;
+        @media (max-width: 575.98px) {
+            .btn2 {
+                width: 230px;
+                height: 60px;
+                border-radius: 50px;
+                background-color: #8d0000;
+                border: none;
+                color: #fff;
+                font-size: 20px;
+                margin-top: 40px;
+                word-spacing: 5px;
+            }
+
+            .btn2:hover {
+                width: 230px;
+                height: 60px;
+                border-radius: 50px;
+                background-color: #fff;
+                border: none;
+                color: #8d0000;
+                font-size: 20px;
+                margin-top: 40px;
+                word-spacing: 5px;
+                transition: all 0.5s;
+            }
         }
 
+        @media (min-width: 992px) {
+            .btn2 {
+                width: 250px;
+                height: 60px;
+                border-radius: 50px;
+                background-color: #8d0000;
+                border: none;
+                color: #fff;
+                font-size: 20px;
+                margin-top: 40px;
+                word-spacing: 5px;
+            }
+
+            .btn2:hover {
+                width: 250px;
+                height: 60px;
+                border-radius: 50px;
+                background-color: #fff;
+                border: none;
+                color: #8d0000;
+                font-size: 20px;
+                margin-top: 40px;
+                word-spacing: 5px;
+                transition: all 0.5s;
+            }
+        }
+
+        /* 
         .btn2_1 {
             width: 230px;
             height: 50px;
@@ -116,7 +159,7 @@
             font-size: 15px;
             margin-top: 20px;
             margin-left: 55px;
-        }
+        } */
 
         .main7 {
             width: 35px;
@@ -197,6 +240,19 @@
             margin-bottom: 20px;
         }
 
+        .btn3:hover {
+            width: 150px;
+            height: 50px;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+            color: #fff;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            background-color: #e40000;
+            transition: all 0.5s;
+        }
+
         .btn3_1 {
             width: 200px;
             height: 50px;
@@ -206,6 +262,19 @@
             color: #e40000;
             margin-top: 10px;
             margin-bottom: 20px;
+        }
+
+        .btn3_1:hover {
+            width: 200px;
+            height: 50px;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+            color: #fff;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            background-color: #e40000;
+            transition: all 0.5s;
         }
 
         .img1 {
@@ -220,12 +289,29 @@
             color: #fff;
         }
 
+        .btn4:hover {
+            width: 320px;
+            height: 50px;
+            background-color: #000;
+            border: none;
+            color: #e40000;
+            transition: all 0.5s;
+        }
+
         .btn4_1 {
             width: 130px;
             height: 40px;
             background-color: #e40000;
             border: none;
             color: #fff;
+        }
+
+        .btn4_1:hover {
+            width: 130px;
+            height: 40px;
+            background-color: #000;
+            border: none;
+            color: #e40000;
         }
 
         .google1 {
@@ -350,4 +436,54 @@
         .txt:hover {
             color: #e40000;
             background-color: #fff;
+        }
+
+        @media (max-width: 576px) {
+            .logo {
+                position: fixed;
+                bottom: 5%;
+                right: 3%;
+                height: 8%;
+                width: 15%;
+                z-index: 1;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .logo {
+                position: fixed;
+                bottom: 5%;
+                right: 2%;
+                height: 6%;
+                width: 3%;
+            }
+        }
+
+        .crds {
+            width: 11rem;
+            height: 8rem;
+        }
+
+        .crds:hover {
+            width: 11rem;
+            height: 8rem;
+            border: 2px solid #000;
+            scale: 1.05;
+            transition: all 0.5s;
+        }
+
+        .bx {
+            width: 140px;
+            height: 110px;
+            box-shadow: 0 0 5px 0 #000;
+            cursor: pointer;
+        }
+
+        .bx:hover {
+            width: 140px;
+            height: 110px;
+            box-shadow: 0 0 5px 0 #000;
+            scale: 1.05;
+            transition: all 0.5s;
+            cursor: pointer;
         }

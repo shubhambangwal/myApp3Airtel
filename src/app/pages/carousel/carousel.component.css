@@ -26,6 +26,27 @@
             cursor: pointer;
         }
 
+        @media (max-width: 576px) {
+            .logo {
+                position: fixed;
+                bottom: 5%;
+                right: 3%;
+                height: 8%;
+                width: 15%;
+                z-index: 1;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .logo {
+                position: fixed;
+                bottom: 5%;
+                right: 2%;
+                height: 6%;
+                width: 3%;
+            }
+        }
+
         .main20_1 ul {
             list-style-type: none;
             display: inline-flex;
