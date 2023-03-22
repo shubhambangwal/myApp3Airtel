@@ -4,10 +4,10 @@ import { CarouselComponent } from './pages/carousel/carousel.component';
 import { HomeComponent } from './pages/home/home.component';
 import { StoreComponent } from './pages/store/store.component';
 const routes: Routes = [
-  { path: '', redirectTo: 'GetApp', pathMatch: 'full' },
-  { path: 'GetApp', title: 'welcome page', component: HomeComponent },
-  { path: 'Store', title: 'Store page', component: StoreComponent },
-  { path: 'carousel', title: 'carousel slide', component: CarouselComponent },
+  { path: '', redirectTo: 'getapp', pathMatch: 'full' },
+  { path: 'getapp', title: 'welcome page', component: HomeComponent },
+  { path: 'store', title: 'Store page', component: StoreComponent },
+  { path: 'carousel', title: 'Carousel slide', component: CarouselComponent },
 ];
 
 @NgModule({
