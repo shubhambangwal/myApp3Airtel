@@ -10,7 +10,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { StoreComponent } from './pages/store/store.component';
 import { CarouselComponent } from './pages/carousel/carousel.component';
 import { ReactiveFormsModule } from '@angular/forms';
-
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +27,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     CarouselModule,
     BrowserAnimationsModule
   ],
-  providers: [],
+  providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
